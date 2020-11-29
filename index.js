@@ -22,11 +22,11 @@ try {
     //Welcome message for new server members
     bot.on('guildMemberAdd', member =>{
     
-        const channel = member.guild.channels.cache.find(ch => ch.name === "welcome")
+        const channel = member.guild.channels.cache.find(ch => ch.name === "welcome");
         if(!channel) return;
     
         channel.send(`Welcome to the Van Wert High School Discord Server, ${member}! Please read the info channel!`)
-    })
+    });
     
     
     //The main body of command code
