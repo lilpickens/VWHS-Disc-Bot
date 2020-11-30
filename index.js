@@ -3,7 +3,7 @@ try {
     const Discord = require('discord.js');
     const bot = new Discord.Client();
     //const Attachment = new Discord.Attachment();
-    const token = 'NzYxNzgzOTQzODAzNTY4MTI4.X3folQ.6YnVFdzk11-BVo7o8Nk2JsMNOoc'
+    const token = 'You cant have my token sneaky sneaky'
     //required command modules
     const help = require('./commands/help.js');
     const role = require('./commands/role.js');
